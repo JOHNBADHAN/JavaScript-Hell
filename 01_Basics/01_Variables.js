@@ -15,4 +15,3 @@ console.log(accountEamil);
 because of issue in block scope and functional scope*/
 
 console.table([accountId, accountEamil, accountPassword, accountCity, accountState]);
-  
