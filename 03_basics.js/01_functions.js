@@ -37,7 +37,33 @@ function loginUserMessage(username){
 // console.log(loginUserMessage());
 // console.log(loginUserMessage("John"));
 
-function calculateCartPrice(val1, val2, ...num1){
+// function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(...num1){
     return num1
 } 
-console.log(calculateCartPrice(100, 300, 499, 900));
+// console.log(calculateCartPrice(100, 300, 499, 900));
+
+const user = {
+    username: "John",
+    age: 20
+}
+
+function handleobject(anyobject){
+    return `Username is ${anyobject.username} and age is ${anyobject.age}`
+}
+
+// console.log(handleobject(user));
+
+// console.log(handleobject({
+//     username: "Max",
+//     age: 21
+// }));
+
+const myArray = [100, 200, 300, 400]
+
+function returnValue(getArray){
+    return getArray[1] 
+} 
+
+// console.log(returnValue(myArray));
+console.log(returnValue([600, 700, 800, 900]));
