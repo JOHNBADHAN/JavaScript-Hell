@@ -1,6 +1,6 @@
 // Immediately Invoked Function Expressions
 
-//Named iifi
+//Named iife
 (function database (){
     console.log(`DB CONNECTED`);
 })();
